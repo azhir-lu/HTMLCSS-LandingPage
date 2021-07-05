@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
 .align-center { align-items: center; }
-.btn { cursor: pointer; border: none; padding: 6px 12px; border-radius: 3px; line-height: 1.4; }
+.btn { cursor: pointer; border: 0; padding: 6px 12px; border-radius: 3px; line-height: 1.4; }
 .btn-default { color: #fff; background-color: #faa541; }
 .btn-primary { color: #fff; background-color: #364147; }
 .center { justify-content: center; }
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 .flex-one { flex: 1; }
 .form-control { display: block; padding: 6px 12px; border: 1px solid #a0a0a0; color: #8598a2; line-height: 1.4; }
 
-.space-between { justify-content: center; }
+.space-between { justify-content: space-between; }
 .text-light { font-size: 30px; color: #a0a0a0; }
 .text-primary { font-size: 16px; color: #364147; }
 .text-secondary { font-size: 30px; color: #faa541; }
