@@ -8,19 +8,39 @@ nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
+.account { text-align: right; padding: 15px; color: #364147; font-size: 18px; }
+.account a { font-size: 14px; }
 .align-center { align-items: center; }
+.brand { height: 85px; width: 170px; margin-left: -15px; margin-right: 60px; }
+
 .btn { cursor: pointer; border: 0; padding: 6px 12px; border-radius: 3px; line-height: 1.4; }
-.btn-default { color: #fff; background-color: #faa541; }
-.btn-primary { color: #fff; background-color: #364147; }
+.btn-default { color: #ffffff; background-color: #faa541; }
+.btn-primary { color: #ffffff; background-color: #364147; }
+
 .center { justify-content: center; }
 .container { margin: 0 auto;max-width: 1170px; }
 
 .flex { display: flex; }
 .flex-column { flex-direction: column; }
 .flex-one { flex: 1; }
+
 .form-control { display: block; padding: 6px 12px; border: 1px solid #a0a0a0; color: #8598a2; line-height: 1.4; }
 
+.header-nav { border-bottom: 1px solid #a0a0a0; }
+.logo { max-width: 100%; height: auto; }
+
+.nav-list { padding-left: 0; width: 575px; margin-top: 10px; }
+.nav-list li a { font-size: 16px; text-transform: uppercase; font-weight: 700; letter-spacing: 0.2px; }
+
+.profile { margin-left: auto; }
+.profile-pic { height: 60px; width: 60px; }
+.profile-pic img { border-radius: 100px; max-width: 100%; }
+
+.search-box { height: 30px; width: 330px; padding: 6px 12px; border: 1px solid #a0a0a0; }
+.search-button { background-color: #a0a0a0; color: #ffffff; height: 30px; width: 100px; border: 0; padding: 0; }
+
 .space-between { justify-content: space-between; }
+
 .text-light { font-size: 30px; color: #a0a0a0; }
 .text-primary { font-size: 16px; color: #364147; }
 .text-secondary { font-size: 30px; color: #faa541; }
